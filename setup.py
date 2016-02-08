@@ -16,9 +16,7 @@ def token_from_input():
     print 'you can find the pushbullet token by loggin in to:'
     print '\thttps://www.pushbullet.com/#settings/account'
     print 'request an access token and copy paste it below:'
-    print '\tPUSHBULLET TOKEN:'
-    t=raw_input()
-    print t
+    t=raw_input("PUSHBULLET TOKEN:")
     return t
 
 t=token_from_args()
